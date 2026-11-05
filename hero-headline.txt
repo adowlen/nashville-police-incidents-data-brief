@@ -1,0 +1,4 @@
+Headline: 34%
+Sub: of the 945,811 records in Nashville's police incident ledger since 2019 are MNPD's non-criminal incident types - police inquiries, found and lost property, transports - while records under criminal offense codes fell 10.1 percent in Jan-Oct 2026, a second straight matched-window drop of about 10 percent
+Source line: Machine Readable - Metro Nashville Police Department Incidents layer, pulled 2026-11-04 - offense-victim records
+Story the art tells: a police records room at night. On the counter, the plain inquiry stack has grown tall while the teal-tagged offense reports sit in a shorter stack, under one amber lamp, with the filing cabinets in shadow behind. The ledger is the story: most of what grows in it is not crime, and the crime side is shrinking.

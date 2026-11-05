@@ -1,0 +1,86 @@
+{
+  "checks": [
+    {
+      "name": "server count (live service updates daily; drift-tolerant)",
+      "pass": true,
+      "detail": "live now 945811 vs snapshot 945811"
+    },
+    {
+      "name": "server full-year 2019 record count (drift-tolerant)",
+      "pass": true,
+      "detail": "server 119745 vs snapshot 119745"
+    },
+    {
+      "name": "server full-year 2025 record count (drift-tolerant)",
+      "pass": true,
+      "detail": "server 118421 vs snapshot 118421"
+    },
+    {
+      "name": "server groupBy code counts within 2 percent for 6 headline codes",
+      "pass": true,
+      "detail": "6/6 within tolerance (740 server 205180 vs snapshot 205180)"
+    },
+    {
+      "name": "server Zone-known count (geography break is in the source, not the pull)",
+      "pass": true,
+      "detail": "server 353882 vs snapshot 353,882"
+    },
+    {
+      "name": "pyarrow row count",
+      "pass": true,
+      "detail": "945811"
+    },
+    {
+      "name": "pyarrow distinct incidents",
+      "pass": true,
+      "detail": "783,832"
+    },
+    {
+      "name": "pyarrow class totals",
+      "pass": true,
+      "detail": "criminal 623874, local 321859"
+    },
+    {
+      "name": "pyarrow Jan-Oct 2023 criminal records (epoch window)",
+      "pass": true,
+      "detail": "71454 vs 71454"
+    },
+    {
+      "name": "pyarrow Jan-Oct 2025 criminal records (epoch window)",
+      "pass": true,
+      "detail": "63634 vs 63634"
+    },
+    {
+      "name": "pyarrow Jan-Oct 2026 criminal records (epoch window)",
+      "pass": true,
+      "detail": "57222 vs 57222"
+    },
+    {
+      "name": "pyarrow UNFOUNDED total",
+      "pass": true,
+      "detail": "299,992"
+    },
+    {
+      "name": "pyarrow UNFOUNDED within local codes",
+      "pass": true,
+      "detail": "289,016"
+    },
+    {
+      "name": "pyarrow Primary_Key collision keys",
+      "pass": true,
+      "detail": "114 keys"
+    },
+    {
+      "name": "mpl-path zone-era control agreement (sampled, independent polygon code)",
+      "pass": true,
+      "detail": "sample agreement 0.9633 on 50,327 sampled rows vs builder 0.9635"
+    },
+    {
+      "name": "mpl-path 2025 incident precinct shares vs builder (max deviation)",
+      "pass": true,
+      "detail": "max deviation 0.0000 across 9 precincts"
+    }
+  ],
+  "passed": 16,
+  "total": 16
+}

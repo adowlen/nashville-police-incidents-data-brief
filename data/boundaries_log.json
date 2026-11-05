@@ -1,0 +1,21 @@
+{
+  "dataset": "MNPD Police Precinct Boundaries (Police_Precinct_Boundaries_view, layer 0)",
+  "endpoint": "https://services2.arcgis.com/HdTo6HJqh92wn4D8/arcgis/rest/services/Police_Precinct_Boundaries_view/FeatureServer/0",
+  "snapshot_date": "2026-11-04",
+  "features": 9,
+  "precincts": [
+    "CENTRAL",
+    "EAST",
+    "HERMITAGE",
+    "MADISON",
+    "MIDTOWN HILLS",
+    "NORTH",
+    "SOUTH",
+    "SOUTHEAST",
+    "WEST"
+  ],
+  "service_last_edit_ms": 1762967791096,
+  "file": "/home/hatch/workspace/goals/daily-civic-data-brief/hidden_files/nashville-police-incidents-brief-2026-11-05/data/precinct_boundaries.geojson",
+  "size_bytes": 916661,
+  "sha256": "a9ff2586513b65931ef1986a3c277131aa4d0b0a6a4476745d7963a0f19bdbe2"
+}

@@ -1,0 +1,1375 @@
+{
+  "dataset": "Metro Nashville Police Department Incidents (Metro_Nashville_Police_Department_Incidents_view layer 0)",
+  "snapshot_date": "2026-11-04",
+  "rows": 945811,
+  "unit": "one row = one offense-victim record within an incident (Primary_Key = Incident_Number + Offense_Number + Victim_Number, verified against the data); distinct incidents are counted separately where stated. Counts are records of reported incidents in MNPD's RMS export, not a count of crimes committed; the metadata warns the export is not an official MNPD incident report and records are subject to change during investigation",
+  "distinct_incidents": 783832,
+  "rows_per_incident_mean": 1.207,
+  "coverage": {
+    "occurred_min": "2019-01-01 00:00:00-06:00",
+    "occurred_max": "2026-11-03 20:45:00-06:00",
+    "window_note": "metadata describes a 7-year rolling extract, daily updates; the served extent is 2019-01-01 to 2026-11-03 (America/Chicago). 2026 is a partial year (through Nov 3); every cross-year comparison uses full years 2019-2025 or matched Jan-Oct windows",
+    "complete_years": [
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+    ]
+  },
+  "code_classes": {
+    "definition": "NIBRS criminal offense codes = the FBI NIBRS list in the metadata's Appendix D (09A-90Z); MNPD local incident-type codes = the 610-850 series Appendix D appends after the NIBRS list (matter of record, found/lost/recovered property, non-criminal deaths, overdoses, transports and similar). Six codes in the local series name criminal conduct (64A, 64B, 700, 710, 730, 850) and are handled by a printed sensitivity check",
+    "nibrs_criminal_rows": 623874,
+    "nibrs_criminal_share": 0.6596,
+    "mnpd_local_rows": 321859,
+    "mnpd_local_share": 0.3403,
+    "unknown_code_rows": 78,
+    "code_740_rows": 205180,
+    "code_740_share": 0.217,
+    "code_740_descriptions": {
+      "POLICE INQUIRY": 185355,
+      "TRANSPORT": 19825
+    }
+  },
+  "sensitivity_reclassification": {
+    "local_block_criminal_codes": [
+      "64A",
+      "64B",
+      "700",
+      "710",
+      "730",
+      "850"
+    ],
+    "local_block_criminal_rows": 3553,
+    "criminal_jan_oct_reclassified": {
+      "2023": 71834,
+      "2025": 63936,
+      "2026": 57517
+    },
+    "change_2025_to_2026_jan_oct_pct_reclassified": -10.0
+  },
+  "full_years": {
+    "2019": {
+      "records": 119745,
+      "nibrs_criminal": 81637,
+      "mnpd_local": 38098,
+      "unknown_code": 10,
+      "code_740": 24157,
+      "local_share": 0.3182,
+      "distinct_incidents": 99575,
+      "complete_year": true
+    },
+    "2020": {
+      "records": 118229,
+      "nibrs_criminal": 80873,
+      "mnpd_local": 37350,
+      "unknown_code": 6,
+      "code_740": 24077,
+      "local_share": 0.3159,
+      "distinct_incidents": 97326,
+      "complete_year": true
+    },
+    "2021": {
+      "records": 116039,
+      "nibrs_criminal": 77756,
+      "mnpd_local": 38275,
+      "unknown_code": 8,
+      "code_740": 23977,
+      "local_share": 0.3298,
+      "distinct_incidents": 94792,
+      "complete_year": true
+    },
+    "2022": {
+      "records": 120632,
+      "nibrs_criminal": 80434,
+      "mnpd_local": 40196,
+      "unknown_code": 2,
+      "code_740": 24127,
+      "local_share": 0.3332,
+      "distinct_incidents": 98497,
+      "complete_year": true
+    },
+    "2023": {
+      "records": 129728,
+      "nibrs_criminal": 85651,
+      "mnpd_local": 44067,
+      "unknown_code": 10,
+      "code_740": 26513,
+      "local_share": 0.3397,
+      "distinct_incidents": 107624,
+      "complete_year": true
+    },
+    "2024": {
+      "records": 129530,
+      "nibrs_criminal": 84324,
+      "mnpd_local": 45196,
+      "unknown_code": 10,
+      "code_740": 29177,
+      "local_share": 0.3489,
+      "distinct_incidents": 107474,
+      "complete_year": true
+    },
+    "2025": {
+      "records": 118421,
+      "nibrs_criminal": 75641,
+      "mnpd_local": 42775,
+      "unknown_code": 5,
+      "code_740": 28479,
+      "local_share": 0.3612,
+      "distinct_incidents": 98930,
+      "complete_year": true
+    },
+    "2026": {
+      "records": 93487,
+      "nibrs_criminal": 57558,
+      "mnpd_local": 35902,
+      "unknown_code": 27,
+      "code_740": 24673,
+      "local_share": 0.384,
+      "distinct_incidents": 79614,
+      "complete_year": false
+    }
+  },
+  "jan_oct_windows": {
+    "2019": {
+      "records": 100696,
+      "nibrs_criminal": 68650,
+      "mnpd_local": 32038,
+      "unknown_code": 8,
+      "code_740": 20458,
+      "distinct_incidents": 83787
+    },
+    "2020": {
+      "records": 99329,
+      "nibrs_criminal": 67571,
+      "mnpd_local": 31752,
+      "unknown_code": 6,
+      "code_740": 20504,
+      "distinct_incidents": 82172
+    },
+    "2021": {
+      "records": 96708,
+      "nibrs_criminal": 64448,
+      "mnpd_local": 32252,
+      "unknown_code": 8,
+      "code_740": 20282,
+      "distinct_incidents": 79318
+    },
+    "2022": {
+      "records": 101580,
+      "nibrs_criminal": 67825,
+      "mnpd_local": 33753,
+      "unknown_code": 2,
+      "code_740": 20192,
+      "distinct_incidents": 82750
+    },
+    "2023": {
+      "records": 108389,
+      "nibrs_criminal": 71454,
+      "mnpd_local": 36925,
+      "unknown_code": 10,
+      "code_740": 22227,
+      "distinct_incidents": 89735
+    },
+    "2024": {
+      "records": 108892,
+      "nibrs_criminal": 70649,
+      "mnpd_local": 38234,
+      "unknown_code": 9,
+      "code_740": 24774,
+      "distinct_incidents": 90685
+    },
+    "2025": {
+      "records": 99643,
+      "nibrs_criminal": 63634,
+      "mnpd_local": 36005,
+      "unknown_code": 4,
+      "code_740": 23961,
+      "distinct_incidents": 83379
+    },
+    "2026": {
+      "records": 93032,
+      "nibrs_criminal": 57222,
+      "mnpd_local": 35783,
+      "unknown_code": 27,
+      "code_740": 24621,
+      "distinct_incidents": 79229
+    }
+  },
+  "trend": {
+    "criminal_jan_oct_2023": 71454,
+    "criminal_jan_oct_2025": 63634,
+    "criminal_jan_oct_2026": 57222,
+    "criminal_change_2023_to_2025_jan_oct_pct": -10.9,
+    "criminal_change_2025_to_2026_jan_oct_pct": -10.1,
+    "criminal_change_2024_to_2025_jan_oct_pct": -9.9,
+    "criminal_full_2023": 85651,
+    "criminal_full_2025": 75641,
+    "criminal_change_full_2023_to_2025_pct": -11.7,
+    "criminal_change_full_2019_to_2025_pct": -7.3,
+    "local_full_2019": 38098,
+    "local_full_2025": 42775,
+    "local_change_full_2019_to_2025_pct": 12.3,
+    "total_full_2023": 129728,
+    "total_full_2025": 118421,
+    "total_change_full_2023_to_2025_pct": -8.7
+  },
+  "tail_completeness": {
+    "oct1_19_vs_sep14_30_daily_rate_ratio": {
+      "2023": 1.018,
+      "2024": 0.985,
+      "2025": 1.01,
+      "2026": 0.928
+    },
+    "reading": "2026 ratio below the 0.985-1.018 range of 2023-2025 implies roughly 400 records (about 0.5 percent of the Jan-Oct 2026 window) occurred in the last 19 days but are not yet reported in the layer; Jan-Oct 2026 figures are understated by about that amount"
+  },
+  "categories": [
+    {
+      "code": "240",
+      "label": "Motor Vehicle Theft",
+      "total": 33010,
+      "full_years": {
+        "2019": 3126,
+        "2020": 3542,
+        "2021": 3511,
+        "2022": 3789,
+        "2023": 6124,
+        "2024": 5621,
+        "2025": 4526
+      },
+      "jan_oct": {
+        "2019": 2589,
+        "2020": 2947,
+        "2021": 2876,
+        "2022": 3203,
+        "2023": 4667,
+        "2024": 4640,
+        "2025": 3976,
+        "2026": 2753
+      },
+      "change_jan_oct_2019_to_2026_pct": 6.3,
+      "change_jan_oct_2023_to_2026_pct": -41.0
+    },
+    {
+      "code": "23F",
+      "label": "Theft From Motor Vehicle",
+      "total": 80495,
+      "full_years": {
+        "2019": 9690,
+        "2020": 11320,
+        "2021": 9327,
+        "2022": 10447,
+        "2023": 12044,
+        "2024": 12272,
+        "2025": 10451
+      },
+      "jan_oct": {
+        "2019": 8117,
+        "2020": 9204,
+        "2021": 7436,
+        "2022": 8960,
+        "2023": 9902,
+        "2024": 9829,
+        "2025": 8855,
+        "2026": 4910
+      },
+      "change_jan_oct_2019_to_2026_pct": -39.5,
+      "change_jan_oct_2023_to_2026_pct": -50.4
+    },
+    {
+      "code": "23G",
+      "label": "Theft of Motor Vehicle Parts or Accessories",
+      "total": 13196,
+      "full_years": {
+        "2019": 1643,
+        "2020": 1780,
+        "2021": 2205,
+        "2022": 2198,
+        "2023": 1793,
+        "2024": 1378,
+        "2025": 1275
+      },
+      "jan_oct": {
+        "2019": 1384,
+        "2020": 1499,
+        "2021": 1855,
+        "2022": 1847,
+        "2023": 1507,
+        "2024": 1193,
+        "2025": 1078,
+        "2026": 922
+      },
+      "change_jan_oct_2019_to_2026_pct": -33.4,
+      "change_jan_oct_2023_to_2026_pct": -38.8
+    },
+    {
+      "code": "120",
+      "label": "Robbery",
+      "total": 13842,
+      "full_years": {
+        "2019": 2705,
+        "2020": 2366,
+        "2021": 2138,
+        "2022": 1903,
+        "2023": 1563,
+        "2024": 1470,
+        "2025": 1050
+      },
+      "jan_oct": {
+        "2019": 2230,
+        "2020": 1886,
+        "2021": 1703,
+        "2022": 1607,
+        "2023": 1314,
+        "2024": 1213,
+        "2025": 868,
+        "2026": 640
+      },
+      "change_jan_oct_2019_to_2026_pct": -71.3,
+      "change_jan_oct_2023_to_2026_pct": -51.3
+    },
+    {
+      "code": "13A",
+      "label": "Aggravated Assault",
+      "total": 42181,
+      "full_years": {
+        "2019": 4445,
+        "2020": 5379,
+        "2021": 5649,
+        "2022": 6127,
+        "2023": 6071,
+        "2024": 5769,
+        "2025": 5015
+      },
+      "jan_oct": {
+        "2019": 3720,
+        "2020": 4513,
+        "2021": 4691,
+        "2022": 5149,
+        "2023": 5170,
+        "2024": 4913,
+        "2025": 4310,
+        "2026": 3701
+      },
+      "change_jan_oct_2019_to_2026_pct": -0.5,
+      "change_jan_oct_2023_to_2026_pct": -28.4
+    },
+    {
+      "code": "13B",
+      "label": "Simple Assault",
+      "total": 80841,
+      "full_years": {
+        "2019": 10453,
+        "2020": 9813,
+        "2021": 10197,
+        "2022": 10047,
+        "2023": 10315,
+        "2024": 10735,
+        "2025": 10444
+      },
+      "jan_oct": {
+        "2019": 8851,
+        "2020": 8283,
+        "2021": 8504,
+        "2022": 8442,
+        "2023": 8719,
+        "2024": 9001,
+        "2025": 8666,
+        "2026": 8772
+      },
+      "change_jan_oct_2019_to_2026_pct": -0.9,
+      "change_jan_oct_2023_to_2026_pct": 0.6
+    },
+    {
+      "code": "13C",
+      "label": "Intimidation",
+      "total": 34713,
+      "full_years": {
+        "2019": 3653,
+        "2020": 3755,
+        "2021": 4343,
+        "2022": 4034,
+        "2023": 4736,
+        "2024": 5056,
+        "2025": 4906
+      },
+      "jan_oct": {
+        "2019": 3086,
+        "2020": 3169,
+        "2021": 3632,
+        "2022": 3414,
+        "2023": 3999,
+        "2024": 4296,
+        "2025": 4105,
+        "2026": 4199
+      },
+      "change_jan_oct_2019_to_2026_pct": 36.1,
+      "change_jan_oct_2023_to_2026_pct": 5.0
+    },
+    {
+      "code": "290",
+      "label": "Destruction/Damage/Vandalism of Property",
+      "total": 57619,
+      "full_years": {
+        "2019": 7687,
+        "2020": 8532,
+        "2021": 8310,
+        "2022": 8171,
+        "2023": 7548,
+        "2024": 7046,
+        "2025": 5782
+      },
+      "jan_oct": {
+        "2019": 6538,
+        "2020": 7111,
+        "2021": 6911,
+        "2022": 7053,
+        "2023": 6369,
+        "2024": 5952,
+        "2025": 4851,
+        "2026": 4518
+      },
+      "change_jan_oct_2019_to_2026_pct": -30.9,
+      "change_jan_oct_2023_to_2026_pct": -29.1
+    },
+    {
+      "code": "220",
+      "label": "Burglary/Breaking & Entering",
+      "total": 30392,
+      "full_years": {
+        "2019": 4232,
+        "2020": 4366,
+        "2021": 4292,
+        "2022": 4584,
+        "2023": 3582,
+        "2024": 3622,
+        "2025": 3242
+      },
+      "jan_oct": {
+        "2019": 3568,
+        "2020": 3608,
+        "2021": 3484,
+        "2022": 3862,
+        "2023": 2954,
+        "2024": 2980,
+        "2025": 2634,
+        "2026": 2466
+      },
+      "change_jan_oct_2019_to_2026_pct": -30.9,
+      "change_jan_oct_2023_to_2026_pct": -16.5
+    },
+    {
+      "code": "23C",
+      "label": "Shoplifting",
+      "total": 37762,
+      "full_years": {
+        "2019": 5650,
+        "2020": 5463,
+        "2021": 4468,
+        "2022": 3802,
+        "2023": 4916,
+        "2024": 5302,
+        "2025": 4701
+      },
+      "jan_oct": {
+        "2019": 4619,
+        "2020": 4543,
+        "2021": 3855,
+        "2022": 3194,
+        "2023": 4068,
+        "2024": 4539,
+        "2025": 3961,
+        "2026": 3436
+      },
+      "change_jan_oct_2019_to_2026_pct": -25.6,
+      "change_jan_oct_2023_to_2026_pct": -15.5
+    },
+    {
+      "code": "23H",
+      "label": "All Other Larceny",
+      "total": 26139,
+      "full_years": {
+        "2019": 3274,
+        "2020": 3657,
+        "2021": 3255,
+        "2022": 3628,
+        "2023": 3750,
+        "2024": 3169,
+        "2025": 3016
+      },
+      "jan_oct": {
+        "2019": 2729,
+        "2020": 3082,
+        "2021": 2724,
+        "2022": 2970,
+        "2023": 3176,
+        "2024": 2637,
+        "2025": 2461,
+        "2026": 2380
+      },
+      "change_jan_oct_2019_to_2026_pct": -12.8,
+      "change_jan_oct_2023_to_2026_pct": -25.1
+    },
+    {
+      "code": "23D",
+      "label": "Theft From Building",
+      "total": 21867,
+      "full_years": {
+        "2019": 3395,
+        "2020": 2688,
+        "2021": 2621,
+        "2022": 2859,
+        "2023": 2923,
+        "2024": 2813,
+        "2025": 2508
+      },
+      "jan_oct": {
+        "2019": 2822,
+        "2020": 2270,
+        "2021": 2156,
+        "2022": 2370,
+        "2023": 2447,
+        "2024": 2382,
+        "2025": 2057,
+        "2026": 2043
+      },
+      "change_jan_oct_2019_to_2026_pct": -27.6,
+      "change_jan_oct_2023_to_2026_pct": -16.5
+    },
+    {
+      "code": "35A",
+      "label": "Drug/Narcotic Violations",
+      "total": 25809,
+      "full_years": {
+        "2019": 4390,
+        "2020": 2917,
+        "2021": 2568,
+        "2022": 2855,
+        "2023": 3385,
+        "2024": 3066,
+        "2025": 3249
+      },
+      "jan_oct": {
+        "2019": 3814,
+        "2020": 2591,
+        "2021": 2200,
+        "2022": 2362,
+        "2023": 2894,
+        "2024": 2626,
+        "2025": 2743,
+        "2026": 3365
+      },
+      "change_jan_oct_2019_to_2026_pct": -11.8,
+      "change_jan_oct_2023_to_2026_pct": 16.3
+    },
+    {
+      "code": "35B",
+      "label": "Drug Equipment Violations",
+      "total": 16130,
+      "full_years": {
+        "2019": 2481,
+        "2020": 1497,
+        "2021": 1471,
+        "2022": 1689,
+        "2023": 2278,
+        "2024": 2194,
+        "2025": 2197
+      },
+      "jan_oct": {
+        "2019": 2167,
+        "2020": 1338,
+        "2021": 1247,
+        "2022": 1381,
+        "2023": 1946,
+        "2024": 1891,
+        "2025": 1865,
+        "2026": 2311
+      },
+      "change_jan_oct_2019_to_2026_pct": 6.6,
+      "change_jan_oct_2023_to_2026_pct": 18.8
+    },
+    {
+      "code": "520",
+      "label": "Weapon Law Violations",
+      "total": 29573,
+      "full_years": {
+        "2019": 3676,
+        "2020": 3984,
+        "2021": 4018,
+        "2022": 4192,
+        "2023": 4271,
+        "2024": 3894,
+        "2025": 3152
+      },
+      "jan_oct": {
+        "2019": 3078,
+        "2020": 3300,
+        "2021": 3354,
+        "2022": 3499,
+        "2023": 3603,
+        "2024": 3283,
+        "2025": 2677,
+        "2026": 2373
+      },
+      "change_jan_oct_2019_to_2026_pct": -22.9,
+      "change_jan_oct_2023_to_2026_pct": -34.1
+    },
+    {
+      "code": "26A",
+      "label": "False Pretenses/Swindle/Confidence Game",
+      "total": 17523,
+      "full_years": {
+        "2019": 2670,
+        "2020": 2458,
+        "2021": 1986,
+        "2022": 1884,
+        "2023": 2196,
+        "2024": 2208,
+        "2025": 2232
+      },
+      "jan_oct": {
+        "2019": 2280,
+        "2020": 2084,
+        "2021": 1639,
+        "2022": 1587,
+        "2023": 1847,
+        "2024": 1895,
+        "2025": 1866,
+        "2026": 1884
+      },
+      "change_jan_oct_2019_to_2026_pct": -17.4,
+      "change_jan_oct_2023_to_2026_pct": 2.0
+    },
+    {
+      "code": "26B",
+      "label": "Credit Card/ATM Fraud",
+      "total": 14884,
+      "full_years": {
+        "2019": 2183,
+        "2020": 1770,
+        "2021": 1774,
+        "2022": 1994,
+        "2023": 1968,
+        "2024": 2294,
+        "2025": 1595
+      },
+      "jan_oct": {
+        "2019": 1821,
+        "2020": 1450,
+        "2021": 1434,
+        "2022": 1671,
+        "2023": 1577,
+        "2024": 1956,
+        "2025": 1339,
+        "2026": 1296
+      },
+      "change_jan_oct_2019_to_2026_pct": -28.8,
+      "change_jan_oct_2023_to_2026_pct": -17.8
+    },
+    {
+      "code": "90J",
+      "label": "Trespass of Real Property",
+      "total": 3560,
+      "full_years": {
+        "2019": 390,
+        "2020": 426,
+        "2021": 608,
+        "2022": 443,
+        "2023": 390,
+        "2024": 465,
+        "2025": 435
+      },
+      "jan_oct": {
+        "2019": 315,
+        "2020": 364,
+        "2021": 532,
+        "2022": 392,
+        "2023": 322,
+        "2024": 376,
+        "2025": 366,
+        "2026": 403
+      },
+      "change_jan_oct_2019_to_2026_pct": 27.9,
+      "change_jan_oct_2023_to_2026_pct": 25.2
+    },
+    {
+      "code": "90C",
+      "label": "Disorderly Conduct",
+      "total": 462,
+      "full_years": {
+        "2019": 44,
+        "2020": 40,
+        "2021": 54,
+        "2022": 47,
+        "2023": 54,
+        "2024": 70,
+        "2025": 90
+      },
+      "jan_oct": {
+        "2019": 35,
+        "2020": 32,
+        "2021": 47,
+        "2022": 42,
+        "2023": 45,
+        "2024": 58,
+        "2025": 72,
+        "2026": 62
+      },
+      "change_jan_oct_2019_to_2026_pct": 77.1,
+      "change_jan_oct_2023_to_2026_pct": 37.8
+    },
+    {
+      "code": "200",
+      "label": "Arson",
+      "total": 651,
+      "full_years": {
+        "2019": 66,
+        "2020": 114,
+        "2021": 96,
+        "2022": 107,
+        "2023": 84,
+        "2024": 63,
+        "2025": 76
+      },
+      "jan_oct": {
+        "2019": 49,
+        "2020": 91,
+        "2021": 73,
+        "2022": 95,
+        "2023": 70,
+        "2024": 52,
+        "2025": 70,
+        "2026": 45
+      },
+      "change_jan_oct_2019_to_2026_pct": -8.2,
+      "change_jan_oct_2023_to_2026_pct": -35.7
+    },
+    {
+      "code": "740",
+      "label": "Matter of Record (MNPD local code)",
+      "total": 205180,
+      "full_years": {
+        "2019": 24157,
+        "2020": 24077,
+        "2021": 23977,
+        "2022": 24127,
+        "2023": 26513,
+        "2024": 29177,
+        "2025": 28479
+      },
+      "jan_oct": {
+        "2019": 20458,
+        "2020": 20504,
+        "2021": 20282,
+        "2022": 20192,
+        "2023": 22227,
+        "2024": 24774,
+        "2025": 23961,
+        "2026": 24621
+      },
+      "change_jan_oct_2019_to_2026_pct": 20.3,
+      "change_jan_oct_2023_to_2026_pct": 10.8
+    },
+    {
+      "code": "715",
+      "label": "Found Property (MNPD local code)",
+      "total": 33806,
+      "full_years": {
+        "2019": 3819,
+        "2020": 3467,
+        "2021": 3898,
+        "2022": 4816,
+        "2023": 5162,
+        "2024": 5041,
+        "2025": 4365
+      },
+      "jan_oct": {
+        "2019": 3182,
+        "2020": 2927,
+        "2021": 3201,
+        "2022": 4112,
+        "2023": 4365,
+        "2024": 4207,
+        "2025": 3602,
+        "2026": 3210
+      },
+      "change_jan_oct_2019_to_2026_pct": 0.9,
+      "change_jan_oct_2023_to_2026_pct": -26.5
+    },
+    {
+      "code": "810",
+      "label": "Lost Property (MNPD local code)",
+      "total": 33272,
+      "full_years": {
+        "2019": 3847,
+        "2020": 3131,
+        "2021": 4061,
+        "2022": 4751,
+        "2023": 5055,
+        "2024": 4444,
+        "2025": 4393
+      },
+      "jan_oct": {
+        "2019": 3192,
+        "2020": 2675,
+        "2021": 3447,
+        "2022": 3983,
+        "2023": 4348,
+        "2024": 3781,
+        "2025": 3653,
+        "2026": 3576
+      },
+      "change_jan_oct_2019_to_2026_pct": 12.0,
+      "change_jan_oct_2023_to_2026_pct": -17.8
+    },
+    {
+      "code": "780",
+      "label": "Recovered Property (MNPD local code)",
+      "total": 28921,
+      "full_years": {
+        "2019": 3736,
+        "2020": 3717,
+        "2021": 3497,
+        "2022": 3747,
+        "2023": 4737,
+        "2024": 4113,
+        "2025": 3224
+      },
+      "jan_oct": {
+        "2019": 3124,
+        "2020": 3129,
+        "2021": 2887,
+        "2022": 3138,
+        "2023": 3777,
+        "2024": 3419,
+        "2025": 2822,
+        "2026": 2135
+      },
+      "change_jan_oct_2019_to_2026_pct": -31.7,
+      "change_jan_oct_2023_to_2026_pct": -43.5
+    }
+  ],
+  "vehicle_cluster": {
+    "codes": [
+      "240",
+      "23F",
+      "23G"
+    ],
+    "jan_oct": {
+      "2019": 12090,
+      "2020": 13650,
+      "2021": 12167,
+      "2022": 14010,
+      "2023": 16076,
+      "2024": 15662,
+      "2025": 13909,
+      "2026": 8585
+    },
+    "change_2023_to_2026_pct": -46.6,
+    "change_2019_to_2026_pct": -29.0
+  },
+  "january_2025_23f_anomaly": {
+    "code": "23F",
+    "jan_2025_rows": 1648,
+    "jan_other_years": {
+      "2019": 669,
+      "2020": 880,
+      "2021": 978,
+      "2022": 1155,
+      "2023": 820,
+      "2024": 797,
+      "2026": 795
+    },
+    "jan_2025_share_reported_after_30_days": 0.0115,
+    "all_23f_share_reported_after_30_days": 0.0107,
+    "excess_over_typical_january": 848,
+    "jan_oct_2025_23f_as_served": 8855,
+    "jan_oct_2025_23f_excluding_january": 7207
+  },
+  "status": {
+    "all_records": {
+      "n": 945811,
+      "open": 438727,
+      "open_share": 0.4639,
+      "unfounded": 299992,
+      "unfounded_share": 0.3172,
+      "cleared_by_arrest": 141450,
+      "cleared_share": 0.1496,
+      "refused_to_cooperate": 58062,
+      "other_and_null": 7580
+    },
+    "nibrs_criminal": {
+      "n": 623874,
+      "open": 417530,
+      "open_share": 0.6693,
+      "unfounded": 10971,
+      "unfounded_share": 0.0176,
+      "cleared_by_arrest": 131339,
+      "cleared_share": 0.2105,
+      "refused_to_cooperate": 56875,
+      "other_and_null": 7159
+    },
+    "mnpd_local": {
+      "n": 321859,
+      "open": 21161,
+      "open_share": 0.0657,
+      "unfounded": 289016,
+      "unfounded_share": 0.898,
+      "cleared_by_arrest": 10075,
+      "cleared_share": 0.0313,
+      "refused_to_cooperate": 1186,
+      "other_and_null": 421
+    },
+    "unfounded_records": 299992,
+    "unfounded_share_all": 0.3172,
+    "share_of_unfounded_that_is_local_code": 0.9634,
+    "unfounded_share_by_year_criminal": {
+      "2019": 0.017,
+      "2020": 0.0164,
+      "2021": 0.0165,
+      "2022": 0.0161,
+      "2023": 0.0158,
+      "2024": 0.0181,
+      "2025": 0.0191,
+      "2026": 0.0236
+    },
+    "unfounded_share_by_year_local": {
+      "2019": 0.882,
+      "2020": 0.8701,
+      "2021": 0.8915,
+      "2022": 0.8833,
+      "2023": 0.9011,
+      "2024": 0.9103,
+      "2025": 0.9139,
+      "2026": 0.9288
+    },
+    "status_is_incident_level": "verified: 0 of 783,832 incidents carry more than one status across their rows"
+  },
+  "report_types": {
+    "D": {
+      "rows": 770232,
+      "label": "DISPATCHED"
+    },
+    "S": {
+      "rows": 96666,
+      "label": "SELF-INITIATED (metadata Appendix A)"
+    },
+    "T": {
+      "rows": 60910,
+      "label": "TELESERVE"
+    },
+    "W": {
+      "rows": 10253,
+      "label": "WALK-IN"
+    },
+    "O": {
+      "rows": 5761,
+      "label": "OTHER"
+    },
+    "CIR": {
+      "rows": 1831,
+      "label": "CIR (not in Appendix A)"
+    },
+    "null": {
+      "rows": 158,
+      "label": "nan"
+    }
+  },
+  "teleserve_share_by_year": {
+    "2019": 0.078,
+    "2020": 0.0991,
+    "2021": 0.0457,
+    "2022": 0.0506,
+    "2023": 0.081,
+    "2024": 0.0601,
+    "2025": 0.0482,
+    "2026": 0.0477
+  },
+  "domestic_related": {
+    "yes_rows": 199452,
+    "yes_share_all": 0.2109,
+    "yes_share_within_assaults_13A_13B": 0.4795,
+    "by_year": {
+      "2019": 0.2111,
+      "2020": 0.2156,
+      "2021": 0.2175,
+      "2022": 0.2044,
+      "2023": 0.1947,
+      "2024": 0.2035,
+      "2025": 0.2167,
+      "2026": 0.2301
+    }
+  },
+  "geography": {
+    "zone_rpa_known_share_by_year": {
+      "2019": 0.9654,
+      "2020": 0.9482,
+      "2021": 0.9021,
+      "2022": 0.1774,
+      "2023": 0.0007,
+      "2024": 0.0001,
+      "2025": 0.0,
+      "2026": 0.0
+    },
+    "zone_rpa_note": "Zone and RPA are jointly populated: known on 96.5 percent of 2019 rows, 90.2 percent of 2021 rows, 17.7 percent of 2022 rows, and under 0.1 percent from 2023 on. Patrol geography therefore cannot carry a full-period comparison; precinct geography is spatial, from coordinates, validated against the zone codes where they exist",
+    "coords_unknown_rows": 11947,
+    "coords_outside_davidson_bbox_rows": 21,
+    "spatial_control_incidents": {
+      "rows_with_zone_and_spatial": 352229,
+      "agreement_zone_derived_vs_spatial": 0.9635,
+      "top_disagreements": [
+        {
+          "zone_precinct": "South",
+          "spatial_precinct": "Midtown Hills",
+          "rows": 1500
+        },
+        {
+          "zone_precinct": "Midtown Hills",
+          "spatial_precinct": "South",
+          "rows": 1135
+        },
+        {
+          "zone_precinct": "Midtown Hills",
+          "spatial_precinct": "Central",
+          "rows": 757
+        }
+      ]
+    },
+    "spatial_control_crashes": {
+      "rows_with_recorded_and_spatial": 201515,
+      "agreement_recorded_vs_spatial": 0.8978,
+      "reading": "crash precinct shares are printed on the recorded precinct (the published crash brief's basis); the spatial re-assignment of the same crashes moves no precinct's 2019-2025 share by more than the gap printed in fusion_precinct_2019_2025"
+    },
+    "zip": {
+      "known_rows": 505255,
+      "unknown_share": 0.4658,
+      "format_note": "ZIP is served as float-strings (for example '37207.0') and is missing on about 46 percent of records in every year, unlike the crash layer's 99.6 percent ZIP completeness; ZIP is used descriptively only",
+      "top10_by_records": [
+        {
+          "zip": "37013",
+          "records": 53524
+        },
+        {
+          "zip": "37207",
+          "records": 50558
+        },
+        {
+          "zip": "37211",
+          "records": 46582
+        },
+        {
+          "zip": "37115",
+          "records": 40731
+        },
+        {
+          "zip": "37203",
+          "records": 31950
+        },
+        {
+          "zip": "37210",
+          "records": 29322
+        },
+        {
+          "zip": "37217",
+          "records": 26951
+        },
+        {
+          "zip": "37208",
+          "records": 26792
+        },
+        {
+          "zip": "37206",
+          "records": 23742
+        },
+        {
+          "zip": "37209",
+          "records": 23678
+        }
+      ]
+    }
+  },
+  "fusion_precinct_2019_2025": {
+    "incidents_population": "NIBRS criminal offense records with a spatial precinct, occurred 2019-2025",
+    "incidents_known_records": 563734,
+    "crashes_population": "reported crashes with a recorded precinct, occurred 2019-2025 (deposited crash layer, 2026-11-01 snapshot)",
+    "crashes_known_records": 178685,
+    "spearman_incidents_vs_crashes": 0.8,
+    "by_precinct": [
+      {
+        "precinct": "Central",
+        "incidents_criminal_records_2019_2025": 47691,
+        "incidents_share": 0.0846,
+        "crashes_recorded_2019_2025": 16129,
+        "crashes_share_recorded": 0.0903,
+        "crashes_share_spatial_check": 0.0798,
+        "share_gap_points": -0.0057
+      },
+      {
+        "precinct": "East",
+        "incidents_criminal_records_2019_2025": 59148,
+        "incidents_share": 0.1049,
+        "crashes_recorded_2019_2025": 14898,
+        "crashes_share_recorded": 0.0834,
+        "crashes_share_spatial_check": 0.0806,
+        "share_gap_points": 0.0215
+      },
+      {
+        "precinct": "Hermitage",
+        "incidents_criminal_records_2019_2025": 69754,
+        "incidents_share": 0.1237,
+        "crashes_recorded_2019_2025": 22577,
+        "crashes_share_recorded": 0.1264,
+        "crashes_share_spatial_check": 0.1261,
+        "share_gap_points": -0.0027
+      },
+      {
+        "precinct": "Madison",
+        "incidents_criminal_records_2019_2025": 56645,
+        "incidents_share": 0.1005,
+        "crashes_recorded_2019_2025": 17118,
+        "crashes_share_recorded": 0.0958,
+        "crashes_share_spatial_check": 0.092,
+        "share_gap_points": 0.0047
+      },
+      {
+        "precinct": "Midtown Hills",
+        "incidents_criminal_records_2019_2025": 64786,
+        "incidents_share": 0.1149,
+        "crashes_recorded_2019_2025": 23337,
+        "crashes_share_recorded": 0.1306,
+        "crashes_share_spatial_check": 0.1423,
+        "share_gap_points": -0.0157
+      },
+      {
+        "precinct": "North",
+        "incidents_criminal_records_2019_2025": 71310,
+        "incidents_share": 0.1265,
+        "crashes_recorded_2019_2025": 18477,
+        "crashes_share_recorded": 0.1034,
+        "crashes_share_spatial_check": 0.102,
+        "share_gap_points": 0.0231
+      },
+      {
+        "precinct": "South",
+        "incidents_criminal_records_2019_2025": 72842,
+        "incidents_share": 0.1292,
+        "crashes_recorded_2019_2025": 25307,
+        "crashes_share_recorded": 0.1416,
+        "crashes_share_spatial_check": 0.1415,
+        "share_gap_points": -0.0124
+      },
+      {
+        "precinct": "Southeast",
+        "incidents_criminal_records_2019_2025": 73125,
+        "incidents_share": 0.1297,
+        "crashes_recorded_2019_2025": 23562,
+        "crashes_share_recorded": 0.1319,
+        "crashes_share_spatial_check": 0.1457,
+        "share_gap_points": -0.0022
+      },
+      {
+        "precinct": "West",
+        "incidents_criminal_records_2019_2025": 48433,
+        "incidents_share": 0.0859,
+        "crashes_recorded_2019_2025": 17280,
+        "crashes_share_recorded": 0.0967,
+        "crashes_share_spatial_check": 0.09,
+        "share_gap_points": -0.0108
+      }
+    ]
+  },
+  "fusion_triad_2025": {
+    "calls": {
+      "known_precinct_records": 374240,
+      "unknown_records": 112371,
+      "unknown_share": 0.2309
+    },
+    "incidents_all_records": {
+      "known_precinct_records": 115565,
+      "total_records_2025": 118421,
+      "unknown_share": 0.0241
+    },
+    "incidents_criminal_only": {
+      "known_precinct_records": 74841
+    },
+    "crashes": {
+      "known_precinct_records": 26349,
+      "total_records_2025": 26985,
+      "unknown_share": 0.0236
+    },
+    "by_precinct": [
+      {
+        "precinct": "Central",
+        "calls_share_2025": 0.1095,
+        "incidents_share_2025_all_records": 0.0965,
+        "incidents_share_2025_criminal_only": 0.1023,
+        "crashes_share_2025": 0.0885
+      },
+      {
+        "precinct": "East",
+        "calls_share_2025": 0.0923,
+        "incidents_share_2025_all_records": 0.0998,
+        "incidents_share_2025_criminal_only": 0.1008,
+        "crashes_share_2025": 0.0743
+      },
+      {
+        "precinct": "Hermitage",
+        "calls_share_2025": 0.1268,
+        "incidents_share_2025_all_records": 0.1267,
+        "incidents_share_2025_criminal_only": 0.1284,
+        "crashes_share_2025": 0.1314
+      },
+      {
+        "precinct": "Madison",
+        "calls_share_2025": 0.092,
+        "incidents_share_2025_all_records": 0.1032,
+        "incidents_share_2025_criminal_only": 0.097,
+        "crashes_share_2025": 0.0895
+      },
+      {
+        "precinct": "Midtown Hills",
+        "calls_share_2025": 0.1348,
+        "incidents_share_2025_all_records": 0.1017,
+        "incidents_share_2025_criminal_only": 0.1057,
+        "crashes_share_2025": 0.1177
+      },
+      {
+        "precinct": "North",
+        "calls_share_2025": 0.1035,
+        "incidents_share_2025_all_records": 0.1236,
+        "incidents_share_2025_criminal_only": 0.1237,
+        "crashes_share_2025": 0.1008
+      },
+      {
+        "precinct": "South",
+        "calls_share_2025": 0.1332,
+        "incidents_share_2025_all_records": 0.1272,
+        "incidents_share_2025_criminal_only": 0.1283,
+        "crashes_share_2025": 0.1364
+      },
+      {
+        "precinct": "Southeast",
+        "calls_share_2025": 0.1077,
+        "incidents_share_2025_all_records": 0.1366,
+        "incidents_share_2025_criminal_only": 0.1311,
+        "crashes_share_2025": 0.1669
+      },
+      {
+        "precinct": "West",
+        "calls_share_2025": 0.1003,
+        "incidents_share_2025_all_records": 0.0846,
+        "incidents_share_2025_criminal_only": 0.0827,
+        "crashes_share_2025": 0.0944
+      }
+    ],
+    "spearman_calls_vs_incidents_all": 0.317,
+    "spearman_incidents_vs_crashes": 0.817
+  },
+  "calls_incident_join_2025": {
+    "calls_2025_rows": 486611,
+    "calls_with_complaint_number_rows": 73763,
+    "distinct_complaint_numbers": 72041,
+    "distinct_numbers_matched_in_incidents_layer": 68373,
+    "match_rate_of_distinct_numbers": 0.9491,
+    "distinct_numbers_matched_to_2025_occurred_incident": 66470,
+    "distinct_incidents_occurred_2025": 98930,
+    "share_of_2025_incidents_with_a_linked_call": 0.6719
+  },
+  "code_counts_all_rows": {
+    "740": 205180,
+    "13B": 80841,
+    "23F": 80495,
+    "290": 57619,
+    "13A": 42181,
+    "23C": 37762,
+    "13C": 34713,
+    "715": 33806,
+    "810": 33272,
+    "240": 33010,
+    "220": 30392,
+    "520": 29573,
+    "780": 28921,
+    "23H": 26139,
+    "35A": 25809,
+    "23D": 21867,
+    "26A": 17523,
+    "35B": 16130,
+    "26B": 14884,
+    "120": 13842,
+    "23G": 13196,
+    "90Z": 9646,
+    "90F": 6564,
+    "26C": 5961,
+    "685": 5154,
+    "250": 3923,
+    "90J": 3560,
+    "850": 3517,
+    "23A": 3201,
+    "735": 2920,
+    "270": 2782,
+    "26E": 2761,
+    "760": 2733,
+    "680": 2132,
+    "210": 1809,
+    "620": 1748,
+    "100": 1688,
+    "13D": 1456,
+    "695": 1386,
+    "690": 1056,
+    "200": 651,
+    "09A": 628,
+    "370": 522,
+    "90C": 462,
+    "90A": 333,
+    "90D": 285,
+    "40A": 282,
+    "23E": 267,
+    "26G": 255,
+    "23B": 246,
+    "90E": 170,
+    "null": 78,
+    "09C": 76,
+    "280": 74,
+    "39C": 66,
+    "40C": 51,
+    "90G": 33,
+    "40B": 29,
+    "11A": 22,
+    "13c": 21,
+    "39B": 20,
+    "700": 18,
+    "39A": 13,
+    "730": 12,
+    "26F": 10,
+    "26D": 10,
+    "510": 8,
+    "64B": 6,
+    "790": 4,
+    "39D": 2,
+    "09B": 2,
+    "11B": 2,
+    "90H": 1
+  },
+  "traps": {
+    "primary_key_not_unique": {
+      "collision_keys": 114,
+      "rows_on_collision_keys": 263,
+      "note": "the metadata calls Primary_Key a unique identifier for each record; 114 keys are shared by 263 rows carrying different offense or victim combinations (the key concatenates offense and victim numbers without a separator, so combinations collide). OBJECTID is the unique row key"
+    },
+    "midnight_placeholder_rows": 27832,
+    "midnight_share": 0.0294,
+    "reported_before_occurred_rows": 1739,
+    "report_lag_days_median": 0.128,
+    "incident_number_prefix_year_mismatch_rows": 15313,
+    "victim_type_junk_rows": 109,
+    "codes_not_in_metadata_appendix_d": [
+      "13c"
+    ],
+    "report_type_description_defect": "the served Report_Type_Description matches the metadata Appendix A key only for D (DISPATCHED) and W-count rows carry 'WITNESS' where Appendix A says WALK-IN; code S is served as 'SUSPECT' where Appendix A says SELF-INITIATED, and codes T, O and CIR (68,660 rows) carry no description at all. This brief uses codes with Appendix A labels throughout",
+    "weapon_field_defect": "Weapon_Description mixes two vocabularies (NONE / PERSONAL (HANDS) / HANDGUN alongside Unarmed / CLUB) and is null on 50,754 rows; no weapon figure is published in this brief",
+    "offense_description_defect": "Offense_Description is the RMS/Tennessee label set, not the NIBRS label: 44 of 72 codes carry more than one description, and code 23F (NIBRS: Theft From Motor Vehicle) is described as 'BURGLARY- MOTOR VEHICLE' on 71,995 rows. All grouping in this brief is by NIBRS code with Appendix D labels"
+  },
+  "censoring_note": "Incident status is a snapshot at pull time: recent incidents have had less time to be cleared, and the OPEN share of recent years is right-censored. The 2026 Jan-Oct window is additionally understated by roughly 0.5 percent (about 400 records) of late-October incidents not yet reported into the layer at pull time (see tail_completeness)."
+}

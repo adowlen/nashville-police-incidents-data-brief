@@ -1,0 +1,193 @@
+code,label,year,jan_oct_records
+240,Motor Vehicle Theft,2019,2589
+240,Motor Vehicle Theft,2020,2947
+240,Motor Vehicle Theft,2021,2876
+240,Motor Vehicle Theft,2022,3203
+240,Motor Vehicle Theft,2023,4667
+240,Motor Vehicle Theft,2024,4640
+240,Motor Vehicle Theft,2025,3976
+240,Motor Vehicle Theft,2026,2753
+23F,Theft From Motor Vehicle,2019,8117
+23F,Theft From Motor Vehicle,2020,9204
+23F,Theft From Motor Vehicle,2021,7436
+23F,Theft From Motor Vehicle,2022,8960
+23F,Theft From Motor Vehicle,2023,9902
+23F,Theft From Motor Vehicle,2024,9829
+23F,Theft From Motor Vehicle,2025,8855
+23F,Theft From Motor Vehicle,2026,4910
+23G,Theft of Motor Vehicle Parts or Accessories,2019,1384
+23G,Theft of Motor Vehicle Parts or Accessories,2020,1499
+23G,Theft of Motor Vehicle Parts or Accessories,2021,1855
+23G,Theft of Motor Vehicle Parts or Accessories,2022,1847
+23G,Theft of Motor Vehicle Parts or Accessories,2023,1507
+23G,Theft of Motor Vehicle Parts or Accessories,2024,1193
+23G,Theft of Motor Vehicle Parts or Accessories,2025,1078
+23G,Theft of Motor Vehicle Parts or Accessories,2026,922
+120,Robbery,2019,2230
+120,Robbery,2020,1886
+120,Robbery,2021,1703
+120,Robbery,2022,1607
+120,Robbery,2023,1314
+120,Robbery,2024,1213
+120,Robbery,2025,868
+120,Robbery,2026,640
+13A,Aggravated Assault,2019,3720
+13A,Aggravated Assault,2020,4513
+13A,Aggravated Assault,2021,4691
+13A,Aggravated Assault,2022,5149
+13A,Aggravated Assault,2023,5170
+13A,Aggravated Assault,2024,4913
+13A,Aggravated Assault,2025,4310
+13A,Aggravated Assault,2026,3701
+13B,Simple Assault,2019,8851
+13B,Simple Assault,2020,8283
+13B,Simple Assault,2021,8504
+13B,Simple Assault,2022,8442
+13B,Simple Assault,2023,8719
+13B,Simple Assault,2024,9001
+13B,Simple Assault,2025,8666
+13B,Simple Assault,2026,8772
+13C,Intimidation,2019,3086
+13C,Intimidation,2020,3169
+13C,Intimidation,2021,3632
+13C,Intimidation,2022,3414
+13C,Intimidation,2023,3999
+13C,Intimidation,2024,4296
+13C,Intimidation,2025,4105
+13C,Intimidation,2026,4199
+290,Destruction/Damage/Vandalism of Property,2019,6538
+290,Destruction/Damage/Vandalism of Property,2020,7111
+290,Destruction/Damage/Vandalism of Property,2021,6911
+290,Destruction/Damage/Vandalism of Property,2022,7053
+290,Destruction/Damage/Vandalism of Property,2023,6369
+290,Destruction/Damage/Vandalism of Property,2024,5952
+290,Destruction/Damage/Vandalism of Property,2025,4851
+290,Destruction/Damage/Vandalism of Property,2026,4518
+220,Burglary/Breaking & Entering,2019,3568
+220,Burglary/Breaking & Entering,2020,3608
+220,Burglary/Breaking & Entering,2021,3484
+220,Burglary/Breaking & Entering,2022,3862
+220,Burglary/Breaking & Entering,2023,2954
+220,Burglary/Breaking & Entering,2024,2980
+220,Burglary/Breaking & Entering,2025,2634
+220,Burglary/Breaking & Entering,2026,2466
+23C,Shoplifting,2019,4619
+23C,Shoplifting,2020,4543
+23C,Shoplifting,2021,3855
+23C,Shoplifting,2022,3194
+23C,Shoplifting,2023,4068
+23C,Shoplifting,2024,4539
+23C,Shoplifting,2025,3961
+23C,Shoplifting,2026,3436
+23H,All Other Larceny,2019,2729
+23H,All Other Larceny,2020,3082
+23H,All Other Larceny,2021,2724
+23H,All Other Larceny,2022,2970
+23H,All Other Larceny,2023,3176
+23H,All Other Larceny,2024,2637
+23H,All Other Larceny,2025,2461
+23H,All Other Larceny,2026,2380
+23D,Theft From Building,2019,2822
+23D,Theft From Building,2020,2270
+23D,Theft From Building,2021,2156
+23D,Theft From Building,2022,2370
+23D,Theft From Building,2023,2447
+23D,Theft From Building,2024,2382
+23D,Theft From Building,2025,2057
+23D,Theft From Building,2026,2043
+35A,Drug/Narcotic Violations,2019,3814
+35A,Drug/Narcotic Violations,2020,2591
+35A,Drug/Narcotic Violations,2021,2200
+35A,Drug/Narcotic Violations,2022,2362
+35A,Drug/Narcotic Violations,2023,2894
+35A,Drug/Narcotic Violations,2024,2626
+35A,Drug/Narcotic Violations,2025,2743
+35A,Drug/Narcotic Violations,2026,3365
+35B,Drug Equipment Violations,2019,2167
+35B,Drug Equipment Violations,2020,1338
+35B,Drug Equipment Violations,2021,1247
+35B,Drug Equipment Violations,2022,1381
+35B,Drug Equipment Violations,2023,1946
+35B,Drug Equipment Violations,2024,1891
+35B,Drug Equipment Violations,2025,1865
+35B,Drug Equipment Violations,2026,2311
+520,Weapon Law Violations,2019,3078
+520,Weapon Law Violations,2020,3300
+520,Weapon Law Violations,2021,3354
+520,Weapon Law Violations,2022,3499
+520,Weapon Law Violations,2023,3603
+520,Weapon Law Violations,2024,3283
+520,Weapon Law Violations,2025,2677
+520,Weapon Law Violations,2026,2373
+26A,False Pretenses/Swindle/Confidence Game,2019,2280
+26A,False Pretenses/Swindle/Confidence Game,2020,2084
+26A,False Pretenses/Swindle/Confidence Game,2021,1639
+26A,False Pretenses/Swindle/Confidence Game,2022,1587
+26A,False Pretenses/Swindle/Confidence Game,2023,1847
+26A,False Pretenses/Swindle/Confidence Game,2024,1895
+26A,False Pretenses/Swindle/Confidence Game,2025,1866
+26A,False Pretenses/Swindle/Confidence Game,2026,1884
+26B,Credit Card/ATM Fraud,2019,1821
+26B,Credit Card/ATM Fraud,2020,1450
+26B,Credit Card/ATM Fraud,2021,1434
+26B,Credit Card/ATM Fraud,2022,1671
+26B,Credit Card/ATM Fraud,2023,1577
+26B,Credit Card/ATM Fraud,2024,1956
+26B,Credit Card/ATM Fraud,2025,1339
+26B,Credit Card/ATM Fraud,2026,1296
+90J,Trespass of Real Property,2019,315
+90J,Trespass of Real Property,2020,364
+90J,Trespass of Real Property,2021,532
+90J,Trespass of Real Property,2022,392
+90J,Trespass of Real Property,2023,322
+90J,Trespass of Real Property,2024,376
+90J,Trespass of Real Property,2025,366
+90J,Trespass of Real Property,2026,403
+90C,Disorderly Conduct,2019,35
+90C,Disorderly Conduct,2020,32
+90C,Disorderly Conduct,2021,47
+90C,Disorderly Conduct,2022,42
+90C,Disorderly Conduct,2023,45
+90C,Disorderly Conduct,2024,58
+90C,Disorderly Conduct,2025,72
+90C,Disorderly Conduct,2026,62
+200,Arson,2019,49
+200,Arson,2020,91
+200,Arson,2021,73
+200,Arson,2022,95
+200,Arson,2023,70
+200,Arson,2024,52
+200,Arson,2025,70
+200,Arson,2026,45
+740,Matter of Record (MNPD local code),2019,20458
+740,Matter of Record (MNPD local code),2020,20504
+740,Matter of Record (MNPD local code),2021,20282
+740,Matter of Record (MNPD local code),2022,20192
+740,Matter of Record (MNPD local code),2023,22227
+740,Matter of Record (MNPD local code),2024,24774
+740,Matter of Record (MNPD local code),2025,23961
+740,Matter of Record (MNPD local code),2026,24621
+715,Found Property (MNPD local code),2019,3182
+715,Found Property (MNPD local code),2020,2927
+715,Found Property (MNPD local code),2021,3201
+715,Found Property (MNPD local code),2022,4112
+715,Found Property (MNPD local code),2023,4365
+715,Found Property (MNPD local code),2024,4207
+715,Found Property (MNPD local code),2025,3602
+715,Found Property (MNPD local code),2026,3210
+810,Lost Property (MNPD local code),2019,3192
+810,Lost Property (MNPD local code),2020,2675
+810,Lost Property (MNPD local code),2021,3447
+810,Lost Property (MNPD local code),2022,3983
+810,Lost Property (MNPD local code),2023,4348
+810,Lost Property (MNPD local code),2024,3781
+810,Lost Property (MNPD local code),2025,3653
+810,Lost Property (MNPD local code),2026,3576
+780,Recovered Property (MNPD local code),2019,3124
+780,Recovered Property (MNPD local code),2020,3129
+780,Recovered Property (MNPD local code),2021,2887
+780,Recovered Property (MNPD local code),2022,3138
+780,Recovered Property (MNPD local code),2023,3777
+780,Recovered Property (MNPD local code),2024,3419
+780,Recovered Property (MNPD local code),2025,2822
+780,Recovered Property (MNPD local code),2026,2135
